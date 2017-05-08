@@ -107,8 +107,8 @@ def openURL(url, headers):
 
 
 if __name__ == '__main__':
-    username = '15521047700'
-    password = '924785452zz'
+    username = ''
+    password = ''
     url = r'https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.15)'
     post_data = createPostdata(username, password)
     login(post_data, url)

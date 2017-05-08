@@ -44,7 +44,7 @@ def dostore(idList):
 
 def main():
     r = redis.Redis(host='192.168.8.25', port=6379, password='npq8pprjxnppn477xssn', db=0)
-    client = SinaSpider('15521047700', '924785452zz')
+    client = SinaSpider('', '')
     session =client.login()
     client.headers['Cookie'] = '_T_WM=539fba9bfcabb75cce5da4e1f8225929; ALF=1495103271; SCF=AiIZSEsS_5puCyqN9WwWF7R3sgeDf8L6zrCNeTAx_0hb7katXoZ6x53xJ_A0s5CDfR7XqvKJ7fN8LQx2IwdHrUA.; SUB=_2A2518sk_DeRhGeBP7FQR9CzOyT2IHXVXHNd3rDV6PUNbktBeLUzTkW11kOEc7LDLWxcjSknph0oPukXjFA..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WW-rvD2EyCESWzyxnMJi.Hu5JpX5KMhUgL.FoqpS0q7ShzEeo22dJLoIEBLxKBLBonLB-BLxKBLBo.L12zLxKnL1hMLBoeLxKqLB-BLBKet; SUHB=0gHSxm94OPzv4P'
     try:
